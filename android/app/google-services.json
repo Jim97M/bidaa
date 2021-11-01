@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "688047054481",
+    "project_id": "signup-login-auth-839b3",
+    "storage_bucket": "signup-login-auth-839b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688047054481:android:73d5ae4030ed6c5c0b6930",
+        "android_client_info": {
+          "package_name": "com.example.auth_fire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688047054481-654k3cbtvk936p33j0nmd8fcei8ek5cb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbGi_tHeBruLNtC3FvYK5E7euC80625lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688047054481-654k3cbtvk936p33j0nmd8fcei8ek5cb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
