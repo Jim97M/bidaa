@@ -93,8 +93,7 @@ final _auth = FirebaseAuth.instance;
          padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
          minWidth: MediaQuery.of(context).size.width,
          onPressed: () {
-           Navigator.push(
-             context,MaterialPageRoute(builder: (context)=> HomeScreen()));
+           signIn(emailController.text, passwordController.text);
          },
          child: Text(
            "Login",
@@ -171,7 +170,7 @@ final _auth = FirebaseAuth.instance;
          Fluttertoast.showToast(msg: "Login Successfully"),
          Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=> HomeScreen())),
        }).catchError((e){
-         
+         Fluttertoast.showToast(msg: e!.message);
        });
      }
    }
